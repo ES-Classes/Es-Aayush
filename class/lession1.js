@@ -9,5 +9,31 @@ age ='Aayush';
  let population = 156546846;
  console.log(1/0);
  console.log("Asayush"/0);
- var bigNumber = 16546346464516731644611543536165146463446346486416546745416339789456684654549645648978454878487n;
+ var bigNumber = 165463464549645648978454878487n;
  console.log(bigNumber);
+ // string - Sequence of characters
+ var name ="Aayush Timalsina";
+  name ='Aayush Timalsina';
+  name =`Aayush Timalsina`;
+  console.log(`My name is ${name}`);
+  //Boolean -True or false
+  var isAnimal = true;
+
+  // undefined
+
+ var year;
+ console.log(year);
+ //null
+ var u= null;
+ //object
+ //symbol
+
+  console.log(typeof name);
+  typeof 0 ;
+  typeof 45n;
+  typeof true;
+  typeof 'bdvkhbV';
+  typeof Symbol('id');
+  typeof Math;
+   typeof null;
+   console.log(typeof null);
