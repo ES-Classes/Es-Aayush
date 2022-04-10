@@ -26,8 +26,10 @@ let s = x == 90;
 let t = s && ss;
 t= false &&  anything;
 t= s || ss;
-t=truev|| ss;
+t=true|| ss;
 
-const u = x ?? "Aayush" // nullish ( null or undefine) coalescing operator
+const u = x ?? "Aayush"; // nullish ( null or undefine) coalescing operator
 
 Let  = x === 90 ? 45:89;
+ let w = x++ + 45 >> 2 <= 34 ^ 4 & 9;
+ console.log(w);
